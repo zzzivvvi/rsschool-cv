@@ -20,6 +20,7 @@ I'm so passionate about reading books in english. I think it gives me very power
 * JavaScript
 * Python
 * Git/Git-hub
+* VIM
 
 # **Code example**
  This code is written on Python and it makes heart in Turtle:
