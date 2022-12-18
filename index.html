@@ -21,6 +21,12 @@
     </style>
   </head>
   <body>
+  <header class="head">
+    <div>
+      <H2 class="anim">Hi Everyone! It's my cv :)</H2>
+    </div>
+  </header>
+  <main>
     <div class="container">
       <div class="left">
         <div class="myinfo">
@@ -30,6 +36,29 @@
           <h3>Viktoria Koshechkina<br><span>Frontend-Developer</span></h3>
         </div>
         <div class="contacts">
+          <div class="nav">
+            <h4>Navigation</h4>
+            <nav class="cont">
+              <ul>
+                <li>
+                  <span><i class="fa fa-bolt" aria-hidden="true"></i></span>
+                  <a class="lll" href="#1.html">About me</a>
+                </li>
+                <li>
+                  <span><i class="fa fa-bolt" aria-hidden="true"></i></span>
+                  <a class="lll" href="#2.html">Code example</a>
+                </li>
+                <li>
+                  <span><i class="fa fa-bolt" aria-hidden="true"></i></span>
+                  <a class="lll" href="#3.html">Courses</a>
+                </li>
+                <li>
+                  <span><i class="fa fa-bolt" aria-hidden="true"></i></span>
+                  <a class="lll" href="#4.html">English Level</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
           <h4 class="name">Contact Information</h4>
           <ul>
             <li>
@@ -48,18 +77,90 @@
               <span class="icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></span>
               <span class="text">Discord: ivvvizzz#5148</span>
             </li>
+            <li>
+              <span class="icon"><i class="fa fa-telegram" aria-hidden="true"></i></span>
+              <span class="text">@ivvvizzz</span>
+            </li>
           </ul>
         </div>
-
-        
-
-
-
-
+      
+        <div class="contacts skills">
+          <h4 class="name">My skills</h4>
+          <ul>
+            <li>
+              <span class="icon"><i class="fa fa-terminal" aria-hidden="true"></i></span>
+              <span class="text">VIM terminal</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-code" aria-hidden="true"></i></span>
+              <span class="text">HTML</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-css3" aria-hidden="true"></i></span>
+              <span class="text">CSS</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+              <span class="text">SMM</span>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="right">
+        <div class="abtme">
+          <h3 id="1.html">Briefly about me:</h3>
+          <h5>Hello to everyone who is reading my CV! 
+            I'm 21 y.o and in 5th of December, 2022 I started learning JavaScript/Front-end in RS-School. I'm definately into front-end development. I have had 3 similar jobs in last three years. They're all about connection and communication with different types of people. This type of job reqires great social skills, stress tolerance and kindness to people who can be in any mood and with any intentions to you. Also it has always been  "offline" job, so I want to try "online" job, when I can work at home or anywhere else, thereby I don't need to waste my time to get to work. It will give me so much time for self-education and I be able to become a professional web-developer in a short time.
+            I'm so passionate about reading books in english. I think it gives me very powerfull advancemet in my english level.</h5>
+        </div>
+        <div class="code">
+          <h3 id="2.html">This is my code example. I wrote it on python. It makes a heart in a turtle graphix using math ;)</h3>
+          <pre class="turtle">
+            <code>
+              import tutle
+import math
 
+
+def xt (t):
+    return 16 * math.sin(t) ** 3
+def yt (t):
+    return 13 * math.cos(2 * t) - 5 \
+           * math.cos(3 * t) - 2 * \
+           math.cos(3 * t) - math.cos (4 * t)
+t = turtle.Turtle()
+t.speed(500)
+turtle.colormode(255)
+turtle.Screen().bgcolor(0, 0, 0)
+for i in range(2550):
+    t.goto((xt(i) * 20, yt(i) * 20))
+    t.pencolor((255-i) % 255, i % 255, (255 + i) // 2 % 255)
+    t.goto(0, 0)
+
+t.hideturtle()
+turtle.update()
+turtle.mainloop()
+            </code>
+          </pre>
+        </div>
+        <div class="exp">
+          <h3 id="3.html">Courses</h3>
+          <h4>
+            <ul>
+              <li>
+                <span>SMM courses 2020 <a class="nioly" href="https://niolymediagroup.com/">Nioly</a></span>
+              </li>
+              <li>
+                <span>Frontend-Developer <a class="rs" href="https://rs.school/"> RS-School</a> 2022</span>
+              </li>
+            </ul>
+          </h4>
+        </div>
+        <div class="eng">
+          <h3 id="4.html">My english level</h3>
+          <h4>My english level is C1 according to online test at <a class="englev" href="https://www.efset.org/">www.efset.org</a></h4>
+        </div>
       </div>
     </div>
+  </main>
   </body>
 </html>
