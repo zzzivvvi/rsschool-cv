@@ -62,7 +62,7 @@ display: grid;
   height: 100%;
   object-fit: cover;
 }
-.myinfo h3{
+.myinfo h2{
   color: #fff;
   margin-top: 20px;
   font-size: 1em;
@@ -73,6 +73,7 @@ display: grid;
 .myinfo span{
   font-size: 0.8em;
   font-weight: 300;
+  cursor: default;
 }
 .contacts{
   padding-top: 30px;
@@ -104,6 +105,7 @@ display: grid;
 .linkgh{
   color:rgb(167, 135, 194);
   text-decoration: none;
+  cursor: pointer;
 }
 @keyframes color-change {
   0% {
@@ -129,10 +131,12 @@ display: grid;
   line-height: 25px;
   padding: 10px 15px;
   background-color:rgb(211, 200, 249);
+  cursor: default;
 }
 .abtme h3{
   text-transform: uppercase;
   text-align: center;
+  cursor: default;
 }
 .abtme{
   padding: 20px;
@@ -142,17 +146,20 @@ display: grid;
   margin-bottom: 20px;
   text-align: center;
   text-transform: uppercase;
+  cursor: default;
 }
 .turtle{
   background-color: rgba(203, 203, 203, 0.608);
   color:rgb(73, 30, 109);
   font-weight: 500;
   padding-left: 40px;
+  cursor: default;
 }
 .exp h3{
   text-align: center;
   margin-top: 60px;
   text-transform: uppercase;
+  cursor: default;
 }
 .exp{
   background-color:rgb(211, 200, 249);
@@ -161,21 +168,27 @@ display: grid;
   list-style: none;
   text-align: center;
 }
-.exp h4{
+.mmm{
   padding-bottom: 20px;
   padding-top: 10px;
   font-weight: 400;
+  cursor: default;
 }
 .exp h3{
   padding-top: 20px;
+  cursor: default;
 }
 .nioly{
   text-decoration: none;
-  color: black;
+  color: rgb(74, 177, 193);
+  font-weight: 700;
+  cursor: pointer;
 }
 .rs{
   text-decoration: none;
-  color: black;
+  color: rgb(74, 177, 193);
+  font-weight: 700;
+  cursor: pointer;
 }
 .eng{
   margin-top: 60px;
@@ -185,16 +198,20 @@ display: grid;
 .eng h3{
   text-transform: uppercase;
   padding-top: 20px;
+  cursor: default;
 }
 .eng h4{
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
   font-weight: 400;
+  cursor: default;
 }
 .englev{
   text-decoration: none;
-  color: black;
+  color: rgb(74, 177, 193);
+  font-weight: 700;
+  cursor: pointer;
 }
 .lll{
   text-decoration: none;
@@ -240,4 +257,27 @@ margin-top: 30px;
 .snow{
   align-items: center;
   margin-top: 30px;
+  cursor: pointer;
 }
+.projects h3{
+  text-transform: uppercase;
+  padding-top: 20px;
+  cursor: default;
+}
+.prjct{
+  text-decoration: none;
+  color: rgb(74, 177, 193);
+  font-weight: 700;
+  cursor: pointer;
+}
+.projects h4{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: 400;
+  cursor: default;
+}
+.projects{
+  margin-top: 60px;
+  background-color:rgb(211, 200, 249);
+  text-align: center;
