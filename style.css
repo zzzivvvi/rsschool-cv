@@ -61,4 +61,40 @@ body{
   font-size: 1em;
   text-align: center;
   text-transform: uppercase;
+  cursor: default;
+}
+.myinfo span{
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.contacts{
+  padding-top: 30px;
+}
+.name{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+  cursor: default;
+}
+.contacts ul{
+  position: relative;
+}
+.contacts ul li {
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 18px;
+  color:rgb(73, 30, 109);
+}
+.contacts ul li .icon{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color:rgb(73, 30, 109);
+}
+.linkgh{
+  color:rgb(167, 135, 194);
+  text-decoration: none;
 }
